@@ -13,8 +13,7 @@ export function Registration() {
         formState: { errors, isSubmitting },
         reset,
     } = useForm<FormInputs>();
-    const onSubmit = async (data: FieldValues) => {
-        console.log(data);
+    const onSubmit = async (_data: FieldValues) => {
         await new Promise((resolve) => setTimeout(resolve, 1000));
         reset();
     };

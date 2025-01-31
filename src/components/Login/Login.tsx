@@ -41,7 +41,7 @@ export function Login() {
                         required: 'Last name is required',
                     })}
                     type="password"
-                    placeholder="Last Name"
+                    placeholder="Password"
                     className="px-4 py-2 rounded-lg border-2 border-color-3-150"
                 />
                 {errors.password && (
